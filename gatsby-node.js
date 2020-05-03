@@ -23,7 +23,7 @@ exports.createPages=({actions,graphql})=>{
     singlePost: path.resolve('src/templates/single-post.js'),
     //tagsPage: path.resolve('src/templates/tags-page.js'),
   }
-
+//graphql
   return graphql(`
      {
       allMarkdownRemark {
