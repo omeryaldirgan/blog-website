@@ -9,7 +9,6 @@ import {
   NavItem,
   NavLink
 } from 'reactstrap';
-
 const Header = (props) => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);

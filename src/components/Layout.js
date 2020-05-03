@@ -6,7 +6,6 @@ import Header from "./Header"
 import Footer from "./Footer"
 import Sidebar from "./Sidebar"
 import "../styles/index.scss"
-
 const Layout = ({ children,pageTitle,authorImageFluid,postAuthor}) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
