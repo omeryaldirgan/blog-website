@@ -2,6 +2,7 @@ import React from 'react';
 import {graphql} from 'gatsby';
 import Post from '../components/Post'
 import Layout from '../components/layout'
+import PagenationLinks from '../components/PagintionLinks'
 
 const postList=(props)=>{
     const posts = props.data.allMarkdownRemark.edges
@@ -20,7 +21,7 @@ const postList=(props)=>{
               fluid={node.frontmatter.image.childImageSharp.fluid}
             />
           ))}
-          
+          <PagenationLinks currentPage={currentPage} numberOfPages={numberOfPages}></PagenationLinks>
         </Layout>
       )
 }
