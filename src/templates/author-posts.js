@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 import Post from '../components/Post'
 import { graphql } from 'gatsby'
 import authors from '../util/authors'

@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 import SEO from '../components/Seo'
 import authors from '../util/authors'
 import { Button, Card, CardText, CardBody, CardTitle, Row } from 'reactstrap'
@@ -20,7 +20,7 @@ const TeamPage = () => (
             <CardTitle>{authors[0].name}</CardTitle>
             <CardText>{authors[0].bio}</CardText>
             <Button
-              classname="text-uppercase"
+              className="text-uppercase"
               color="primary"
               href={`/author/${slugify(authors[0].name)}`}
             >
