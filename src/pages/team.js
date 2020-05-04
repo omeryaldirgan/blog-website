@@ -40,7 +40,7 @@ const TeamPage = () => (
             <CardTitle>{authors[1].name}</CardTitle>
             <CardText>{authors[1].bio}</CardText>
             <Button
-              classname="text-uppercase"
+              className="text-uppercase"
               color="primary"
               href={`/author/${slugify(authors[1].name)}`}
             >
