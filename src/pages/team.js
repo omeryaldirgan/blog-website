@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
-import SEO from '../components/seo'
+import SEO from '../components/Seo'
 import authors from '../util/authors'
 import { Button, Card, CardText, CardBody, CardTitle, Row } from 'reactstrap'
 import JohnImage from '../images/john.jpg'

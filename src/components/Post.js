@@ -6,7 +6,7 @@ import {slugify} from '../util/utility'
 const Post=({title,author,fluid,date,slug,body,tags})=>{
     return(
         <Card>
-            <Link to={slug}><Img className='card-image-top' fluid={fluid}/></Link>
+            <Link to={`/${slug}`}><Img className='card-image-top' fluid={fluid}/></Link>
             <CardBody>
                 <CardTitle>{title}</CardTitle>
                 <CardSubtitle>
@@ -25,7 +25,7 @@ const Post=({title,author,fluid,date,slug,body,tags})=>{
                         ))
                     }
                 </ul>
-                <Link to={slug}  className="btn btn-outline-primary float-right">Read More</Link>
+                <Link  to={`/${slug}`}  className="btn btn-outline-primary float-right">Read More</Link>
             </CardBody>
         </Card>
     )
